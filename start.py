@@ -22,7 +22,7 @@ from uni.downstream.eval_patch_features.metrics import get_eval_metrics, print_m
 from uni.downstream.utils import concat_images
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-login(token="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")  # login with your User Access Token, found at https://huggingface.co/settings/tokens
+login()  # login with your User Access Token, found at https://huggingface.co/settings/tokens
 
 # local_dir = "../assets/ckpts/vit_large_patch16_224.dinov2.uni_mass100k/"
 # os.makedirs(local_dir, exist_ok=True)  # create directory if it does not exist
